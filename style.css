@@ -170,9 +170,11 @@ body {
 }
 
 .card__summary-continue {
+  font-size: 1.125rem;
+  letter-spacing: 1.1px;
   border: none;
-  padding: 18px;
-  border-radius: 30px;
+  padding: 1.125rem;
+  border-radius: 1.875rem;
   color: var(--white);
   font-weight: 700;
   background: var(--dark-gray-blue);
