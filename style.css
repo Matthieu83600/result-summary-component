@@ -189,3 +189,29 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
+  .card {
+    flex-direction: column;
+    max-width: 600px;
+    margin-bottom: 3rem;
+  }
+  .card__result {
+    max-width: 100%;
+    padding: 1.5625rem 3.75rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .card__summary-continue {
+    align-self: center;
+    width: 315px;
+  }
+}
+@media (max-width: 360px) {
+  .card__summary-stats-item-name {
+    width: 90px;
+  }
+}
