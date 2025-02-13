@@ -73,8 +73,9 @@ body {
   background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
 }
 .card__result-title {
+  margin-top: -1.5rem;
   margin-bottom: 2.5rem;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 .card__result-score {
   display: flex;
